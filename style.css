@@ -1,0 +1,68 @@
+:root {
+  --color-button: rgba(150, 150, 150, 0.6);
+  --color-invisible: rgba(0, 0, 0, 0);
+}
+
+body {
+  /* 'Basic centering' when dealing with just 1 thing  */
+  margin: 0 auto;
+  max-width: 960px;
+
+  /* Allow app to be full width of screen (until max width). */
+  width: 100vw;
+}
+
+h1 {
+  /* Update to use Google Font */
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+figure {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+  position: relative;
+}
+
+button {
+  background: var(--color-button);
+  border: 0;
+  border: 1px solid #999;
+  cursor: pointer;
+  left: 2px;
+  position: absolute;
+  text-shadow: 1px 1px 1px white;
+  top: 2px;
+}
+
+.displayed-img {
+  height: auto;
+
+  /* Responsive image - not allowed to be more than the width of its parent, but can be smaller. */
+  max-width: 100%;
+}
+
+.overlay {
+  background-color: var(--color-invisible);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.thumb-bar img {
+  cursor: pointer;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+
+.flex-flex-direction--column {
+  flex-direction: column;
+}
+
+.flex-justify-content--center {
+  justify-content: center;
+}
