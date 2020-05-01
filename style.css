@@ -29,7 +29,7 @@ button {
   top: 2px;
 }
 
-.displayed-img {
+img {
   height: auto;
 
   /* Responsive image - not allowed to be more than the width of its parent, but can be smaller. */
@@ -50,8 +50,15 @@ button {
   width: 100%;
 }
 
+.thumb-bar {
+  width: 100%;
+}
+
 .thumb-bar img {
   cursor: pointer;
+
+  /* 5 images divided evenly */
+  width: 20%;
 }
 
 /* Utility Classes */
