@@ -17,7 +17,7 @@ const thumbBar = document.querySelector('.thumb-bar')
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
  *
  * After looping...
- *  TODO: Append to '.thumb-bar-flex' - https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+ *  TODO: Append to '.thumb-bar' - https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
  */
 
 /* Darken/Lighten button */
