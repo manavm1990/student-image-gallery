@@ -1,6 +1,6 @@
 :root {
   --color-button: rgba(150, 150, 150, 0.6);
-  --color-invisible: rgba(0, 0, 0, 0);
+  --color-overlay: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -42,7 +42,7 @@ img {
 }
 
 .overlay {
-  background-color: var(--color-invisible);
+  background-color: var(--color-overlay);
   height: 100%;
   left: 0;
   position: absolute;
