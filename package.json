@@ -1,8 +1,8 @@
 {
   "name": "image-gallery-dom",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An image gallery for practicing the DOM.",
+  "main": "index.html",
   "scripts": {
     "serve": "browser-sync start --server --files '*.html, *.css, *.js'"
   },
